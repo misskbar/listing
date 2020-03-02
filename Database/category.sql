@@ -1,0 +1,44 @@
+USE listing;
+insert into category (id_category, name, parent) values (1, 'Industrial', null);
+insert into category (id_category, name, parent) values (2, 'Books', null);
+insert into category (id_category, name, parent) values (3, 'Tools', null);
+insert into category (id_category, name, parent) values (4, 'Grocery', null);
+insert into category (id_category, name, parent) values (5, 'Garden', null);
+insert into category (id_category, name, parent) values (6, 'Electronics', null);
+insert into category (id_category, name, parent) values (7, 'Tools', null);
+insert into category (id_category, name, parent) values (8, 'Outdoors', null);
+insert into category (id_category, name, parent) values (9, 'Industrial', null);
+insert into category (id_category, name, parent) values (10, 'Beauty', null);
+
+insert into category (id_category, name, parent) values (11, 'L300', 1);
+insert into category (id_category, name, parent) values (12, 'Grand Prix', 1);
+insert into category (id_category, name, parent) values (13, 'Sedona', 1);
+insert into category (id_category, name, parent) values (14, 'A4', 9);
+insert into category (id_category, name, parent) values (15, 'TL', 10);
+insert into category (id_category, name, parent) values (16, 'Grand Cherokee', 4);
+insert into category (id_category, name, parent) values (17, 'F-Series', 4);
+insert into category (id_category, name, parent) values (18, 'Xterra', 6);
+insert into category (id_category, name, parent) values (19, 'Cabriolet', 10);
+insert into category (id_category, name, parent) values (20, 'Tacoma', 4);
+
+insert into category (id_category, name, parent) values (21, 'Maroon', 11);
+insert into category (id_category, name, parent) values (22, 'Blue', 16);
+insert into category (id_category, name, parent) values (23, 'Turquoise', 17);
+insert into category (id_category, name, parent) values (24, 'Turquoise', 18);
+insert into category (id_category, name, parent) values (25, 'Goldenrod', 14);
+insert into category (id_category, name, parent) values (26, 'Violet', 19);
+insert into category (id_category, name, parent) values (27, 'Aquamarine', 13);
+insert into category (id_category, name, parent) values (28, 'Aquamarine', 12);
+insert into category (id_category, name, parent) values (29, 'Indigo', 20);
+insert into category (id_category, name, parent) values (30, 'Teal', 20);
+
+insert into category (id_category, name, parent) values (31, 'Canada Dry', 23);
+insert into category (id_category, name, parent) values (32, 'Wine - Red, Black Opal Shiraz', 22);
+insert into category (id_category, name, parent) values (33, 'Napkin - Dinner, White', 25);
+insert into category (id_category, name, parent) values (34, 'Eggplant - Baby', 24);
+insert into category (id_category, name, parent) values (35, 'Pie Box - Cello Window 2.5', 21);
+insert into category (id_category, name, parent) values (36, 'Soup - French Onion', 28);
+insert into category (id_category, name, parent) values (37, 'Flour Pastry Super Fine', 30);
+insert into category (id_category, name, parent) values (38, 'Wine - Fontanafredda Barolo', 29);
+insert into category (id_category, name, parent) values (39, 'Wine - Harrow Estates, Vidal', 27);
+insert into category (id_category, name, parent) values (40, 'Relish', 24);
