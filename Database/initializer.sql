@@ -8,7 +8,6 @@ CREATE TABLE user (
   user_img_url VARCHAR(255) NOT NULL,
   birthday DATE NOT NULL,
   mail VARCHAR(255) NOT NULL,
-  nickname VARCHAR(255) NOT NULL,
   password VARCHAR(255) NOT NULL,
   gender VARCHAR(1)
 );
@@ -35,6 +34,8 @@ CREATE TABLE address (
   id_address INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
   parent INT,
+  fk_rut VARCHAR(10),
+  FOREIGN KEY (fk_rut) REFERENCES user (rut),
   FOREIGN KEY (parent) REFERENCES address (id_address)
 );
 
