@@ -47,9 +47,9 @@ CREATE TABLE service (
   keywords VARCHAR(255),
   mail VARCHAR(255),
   service_front_img_url VARCHAR(255),
-  rate DECIMAL NOT NULL,
-  price_from DECIMAL,
-  price_to DECIMAL NOT NULL,
+  rate DECIMAL(2,2) NOT NULL,
+  price_from DECIMAL (10,2),
+  price_to DECIMAL (10,2) NOT NULL,
   is_promoted BOOLEAN NOT NULL,
   publication_date DATE NOT NULL,
   website_url VARCHAR(255),
@@ -106,6 +106,3 @@ CREATE TABLE timetable (
   fk_service INT NOT NULL,
   FOREIGN KEY (fk_service) REFERENCES service (id_service)
 );
-
-
-
