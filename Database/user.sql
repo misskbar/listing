@@ -1,5 +1,5 @@
 USE listing;
-insert into user (rut, name, last_name, user_img_url, birthday, mail, password, gender) values ('21560013-6', 'Rubetta', 'Kays', 'http://dummyimage.com/193x199.png/ff4444/ffffff', '22/05/2019', 'rkays0@skype.com', '8R3QmXzp', 'F');
+insert into user (rut, name, last_name, user_img_url, birthday, mail, password, gender) values ('21560013-6', 'Rubetta', 'Kays', 'http://dummyimage.com/193x199.png/ff4444/ffffff', '22/05/2019', 'rkays0@skype.com', '', 'F');
 insert into user (rut, name, last_name, user_img_url, birthday, mail, password, gender) values ('23602178-4', 'Esteban', 'Haughin', 'http://dummyimage.com/157x228.bmp/5fa2dd/ffffff', '18/08/2019', 'ehaughin1@domainmarket.com', 's6LnCIhO', 'M');
 insert into user (rut, name, last_name, user_img_url, birthday, mail, password, gender) values ('21082739-0', 'Delilah', 'Montfort', 'http://dummyimage.com/174x133.jpg/cc0000/ffffff', '10/10/2019', 'dmontfort2@archive.org', '6yvGX8fe', 'F');
 insert into user (rut, name, last_name, user_img_url, birthday, mail, password, gender) values ('65626614-2', 'Joellyn', 'Monteith', 'http://dummyimage.com/150x100.bmp/ff4444/ffffff', '13/08/2019', 'jmonteith3@yale.edu', 'xn6iDx', 'F');

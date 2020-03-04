@@ -16,7 +16,7 @@ USE listing;
 CREATE TABLE phone_number (
   id_phone_number INT AUTO_INCREMENT PRIMARY KEY,
   phone_number VARCHAR(25) NOT NULL,
-  fk_rut VARCHAR(10),
+  fk_rut VARCHAR(10) NOT NULL,
   FOREIGN KEY (fk_rut) REFERENCES user (rut)
 );
 
@@ -73,6 +73,7 @@ CREATE TABLE review (
   rate INT NOT NULL,
   comment VARCHAR(500),
   publication_date DATE NOT NULL,
+  is_annonymous BOOLEAN NOT NULL,
   fk_rut VARCHAR(10),
   fk_service INT,
   FOREIGN KEY (fk_rut) REFERENCES user (rut),
